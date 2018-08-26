@@ -1,0 +1,182 @@
+{
+
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "clients": [
+  {
+    "transaction": {
+      "project": {
+        "id": 18404,
+        "name": "Red Sauce 3"
+      },
+      "payment_method": {
+        "id": 1380,
+        "name": "Credit\/Debit Cards"
+      },
+      "transfer_date": "2018-07-06T16:22:57+03:00",
+      "id": 356513588,
+      "refund_reason": null,
+      "status": "created",
+      "external_id": null,
+      "dry_run": 2,
+      "is_refund_allowed": 1
+    },
+    "user": {
+      "id": "Jack Black",
+      "name": "d.rozhkov",
+      "email": "d.rozhkov@xsolla.com",
+      "phone": null,
+      "country": "BR"
+    },
+    "payment_details": {
+      "payment": {
+        "currency": "BRL",
+        "amount": 0.41,
+        "amount_from_ps": 0.41
+      },
+      "sales_tax": {
+        "percent": 0,
+        "amount": 0
+      }
+    },
+    "purchase": {
+      "virtual_currency": {
+        "amount": 0,
+        "name": "gold"
+      },
+      "virtual_items": "1 Kawaii~ka",
+      "simple_checkout": {
+        "amount": 0,
+        "currency": "BRL"
+      },
+      "pin_codes": {
+        "amount": null,
+        "currency": null,
+        "content": null
+      },
+      "subscription": {
+        "name": null
+      }
+    }
+  },
+  {
+    "transaction": {
+      "project": {
+        "id": 18404,
+        "name": "Red Sauce 3"
+      },
+      "payment_method": {
+        "id": 16,
+        "name": "QIWI"
+      },
+      "transfer_date": "2018-07-06T16:22:31+03:00",
+      "id": 356184136,
+      "refund_reason": "Cancellation by the PS request",
+      "status": "canceled",
+      "external_id": null,
+      "dry_run": 2,
+      "is_refund_allowed": 1
+    },
+    "user": {
+      "id": "e.polyanina",
+      "name": null,
+      "custom": null,
+      "email": "e.tes@xsolla.com",
+      "phone": 79223812311,
+      "country": "RU"
+    },
+    "payment_details": {
+      "payment": {
+        "currency": "RUB",
+        "amount": 10.64,
+        "amount_from_ps": 10.64
+      },
+      "sales_tax": {
+        "percent": 0,
+        "amount": 0
+      }
+    },
+    "purchase": {
+      "virtual_currency": {
+        "amount": 0,
+        "name": "gold"
+      },
+      "virtual_items": null,
+      "simple_checkout": {
+        "amount": 0.16,
+        "currency": "USD"
+      },
+      "pin_codes": {
+        "amount": null,
+        "currency": null,
+        "content": null
+      },
+      "subscription": {
+        "name": null
+      }
+    }
+  },
+  {
+    "transaction": {
+      "project": {
+        "id": 18404,
+        "name": "Red Sauce 3"
+      },
+      "payment_method": {
+        "id": 1380,
+        "name": "Credit\/Debit Cards"
+      },
+      "transfer_date": "2018-07-06T16:18:16+03:00",
+      "id": 356511801,
+      "refund_reason": null,
+      "status": "created",
+      "external_id": null,
+      "dry_run": 2,
+      "is_refund_allowed": 1
+    },
+    "user": {
+      "id": "Jack Black",
+      "name": "d.rozhkov",
+      "custom": null,
+      "email": "d.rozhkov@xsolla.com",
+      "phone": null,
+      "country": "BR"
+    },
+    "payment_details": {
+      "payment": {
+        "currency": "BRL",
+        "amount": 0.41,
+        "amount_from_ps": 0.41
+      },
+      "sales_tax": {
+        "percent": 0,
+        "amount": 0
+      }
+    },
+    "purchase": {
+      "virtual_currency": {
+        "amount": 0,
+        "name": "gold"
+      },
+      "virtual_items": "1 Kawaii~ka",
+      "simple_checkout": {
+        "amount": 0,
+        "currency": "BRL"
+      },
+      "pin_codes": {
+        "amount": null,
+        "currency": null,
+        "content": null
+      },
+      "subscription": {
+        "name": null
+      }
+    }
+  }]
+  
+}
